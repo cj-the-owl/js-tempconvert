@@ -28,4 +28,24 @@ input {
 
 img {
     width: 70px;
+} 
+
+@media (max-width: 500px) {
+    body {
+        margin: 50px;
+    }
+    
+    .container {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+
 }
+
