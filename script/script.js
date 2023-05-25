@@ -1,15 +1,3 @@
-/*function convertTemp() {
-    let fah = document.getElementById('fahrenheit').value
-    let cel = document.getElementById('celsius').value
-
-    let fahcel = (cel * 1.8) + 32;
-    let celfah = (fah - 32) * 0.5556;
-
-    document.getElementById('fahrenheit') = fahcel.toFixed(1); 
-
-    
-};*/
-
 let cel = document.getElementById('celsius');
 let fah = document.getElementById('fahrenheit');
 
